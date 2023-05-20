@@ -1,0 +1,407 @@
+.segment {
+  fill: none;
+  stroke-linecap: round;
+  stroke-miterlimit: 10;
+  stroke-width: 30px;
+  mix-blend-mode: multiply;
+  stroke-dasharray: 100%;
+  stroke-dashoffset: 100%;
+  transition:stroke-width 1s linear;
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+      }
+  }
+
+#squiggleBackground {
+  fill: none;
+  stroke-miterlimit: 10;
+  stroke-width: 29px;
+  stroke: var(--white);
+/*  stroke: var(--lightGrey);*/
+  stroke-linecap: round;
+}
+
+.blackStroke5, .greyStroke3_12, .greyStroke5, .greyStroke3_75, .greyStroke7_5, .blackStroke7_5, .blackPath, .blackStroke6_25, .bannerPole, .invisCircle, .greyPath, .bluePath, .greyStroke2_5, .stem, .yellowPath, .greyStroke6_25, .cls-23, .redPath {
+  stroke-miterlimit: 10;
+}
+
+.greyStroke3_12, .greyStroke3_75, .greyStroke7_5, .redPath, .blackStroke7_5, .blackStroke6_25, .bluePath, .blackPath, .greyStroke2_5, .bannerPole, .greyStroke5, .invisCircle, .greyPath, .yellowPath .cls-24, .stem, .greyStroke6_25, .cls-23 {
+  fill: none;
+}
+
+.blackStroke5, .greyStroke5, .stem {
+  stroke-width: 5px;
+}
+
+.blackStroke5, .blackStroke7_5, .blackStroke6_25 {
+  stroke: var(--black);
+}
+
+.greyStroke3_12 {
+  stroke-width: 3.12px;
+}
+
+.greyStroke5, .greyStroke3_75, .greyStroke2_5, .greyStroke3_12, .greyStroke7_5, .greyStroke6_25 {
+  stroke: var(--medGrey);
+}
+
+.greyStroke2_5 {
+  stroke-width: 2.5px;
+}
+
+.whiteFill {
+  fill: var(--white);
+}
+
+.greyStroke3_75, .blackPath, .greyPath, .bluePath, .greyStroke2_5, .cls-20, .yellowPath, .cls-23, .redPath {
+  stroke-linecap: round;
+}
+
+.greyStroke3_75 {
+  stroke-width: 3.75px;
+}
+
+.greyStroke7_5, .blackStroke7_5 {
+  stroke-width: 7.5px;
+}
+
+.blackPath, .greyPath, .bluePath, .yellowPath, .redPath {
+  stroke-width: 30px;
+}
+  .bluePath {
+    stroke: var(--darkBlue);
+  }
+  .redPath {
+    stroke: var(--darkRed);
+  }
+  .blackPath {
+    stroke: var(--blackHighlight);
+  }
+  .greyPath {
+    stroke: var(--medGrey);
+  }
+  .yellowPath {
+    stroke: #f9cb5a;
+  }
+
+  .lightGreyFill {
+    fill: var(--lightGrey);
+  }
+  .blackFill {
+    fill: var(--black);
+  }
+  .redFill {
+    fill: var(--red);
+  }
+  .medGreyFill {
+    fill: var(--medGrey);
+  }
+  .blueFill {
+  fill: var(--blue);
+  }
+
+.backgroundRect {
+  fill: var(--backgroundFill);
+}
+
+.scaffoldBlade, .bannerFill{
+  fill: var(--darkRed);
+}
+
+.cls-27 {
+  clip-path: url(#clippath-2);
+}
+
+.blackStroke6_25, .greyStroke6_25 {
+  stroke-width: 6.25px;
+}
+
+.cls-28 {
+  fill: var(--lightGrey);
+}
+
+.cls-29 {
+  fill: #ffd76a;
+  opacity: .5;
+}
+
+.bannerPole {
+  stroke: url(#linear-gradient);
+  stroke-width: 10px;
+}
+
+.bannerPole, .bannerFill {
+  opacity: .75;
+  transition: opacity 1000ms;
+}
+
+.cls-30 {
+  clip-path: url(#clippath-1);
+}
+
+.blueWing {
+  fill: var(--darkBlue);
+}
+
+.cls-31 {
+  fill: #e8ddcf;
+}
+
+.cls-33 {
+  fill: #ffd76a;
+}
+
+.cls-34 {
+  fill: #181818;
+}
+
+.cls-35 {
+  clip-path: url(#clippath);
+}
+
+.stem {
+  stroke: #788b39;
+}
+
+.cls-37 {
+  fill: #231f20;
+}
+
+.cls-38 {
+  fill: #ffc33e;
+}
+
+.cls-39 {
+  fill: #90b045;
+}
+
+.invisCircle {
+  visibility: hidden;
+}
+
+.visited {
+/*  stroke: green;*/
+  
+}
+
+.youarehere {
+  stroke-width: 50px;
+}
+
+#youAreHereDot {
+  fill: none;
+  stroke: var(--darkRed);
+  opacity: .75;
+  stroke-width: 10px;
+}
+
+.highlight.lightGreyFill {
+  stroke: var(--lightGrey);
+  stroke-width: var(--dotStroke);
+  fill: var(--white);
+}
+
+.highlight.redFill {
+  stroke: var(--red);
+  stroke-width: var(--dotStroke);
+  fill: var(--white);
+}
+
+.highlight.blueFill {
+  stroke: var(--blue);
+  stroke-width: var(--dotStroke);
+  fill: var(--white);
+}
+
+.highlight.blackFill {
+  stroke: var(--black);
+  stroke-width: var(--dotStroke);
+  fill: var(--white);
+}
+
+.highlight circle.bird  {
+  fill: #4c719b;
+}
+
+.highlight circle.drum {
+  fill: #7A1C15;
+}
+
+.highlight circle.flower {
+  fill: #ffc33e;
+}
+
+.highlightTemp.lightGreyFill {
+  stroke: var(--lightGrey);
+  stroke-width: var(--dotStroke);
+  fill: var(--white);
+}
+
+.highlightTemp.redFill {
+  stroke: var(--red);
+  stroke-width: var(--dotStroke);
+  fill: var(--white);
+}
+
+.highlightTemp.blueFill {
+  stroke: var(--blue);
+  stroke-width: var(--dotStroke);
+  fill: var(--white);
+}
+
+.highlightTemp.blackFill {
+  stroke: var(--black);
+  stroke-width: var(--dotStroke);
+  fill: var(--white);
+}
+
+.highlightTemp circle.bird  {
+  fill: #4c719b;
+}
+
+.highlightTemp circle.drum {
+  fill: #7A1C15;
+}
+
+.highlightTemp circle.flower {
+  fill: #ffc33e;
+}
+
+/*#bigBirdR {
+
+  transition: transform 1s ease-in-out;
+}*/
+
+.bannerFill:hover {
+  opacity: 95%;
+}
+
+.birdBody:hover {
+  animation: shake 0.82s both;
+  transform: translate(0, 0);
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate(-1px, 0);
+  }
+  
+  20%, 80% {
+    transform: translate(2px, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate(-2px, 0);
+  }
+
+  40%, 60% {
+    transform: translate(1px, 0);
+  }
+}
+
+#bird2 {
+  transform: rotate(95deg);
+  transition: transform 1.5s ease-out;
+}
+
+#bird3 {
+  transform: rotate(-95deg);
+  transition: transform 1.5s ease-out;
+}
+
+#bird7 {
+  transform: rotate(95deg);
+  transition: transform 1.5s ease-out;
+}
+
+#yellowBird {
+  display: block;
+  opacity: 0%;
+  transition: opacity 2000ms;
+}
+
+.moveBirdR {
+  animation-name: moveBirdR;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes moveBirdR {
+  0% {transform:translate(300 0); }
+  100% {transform:translate(0); }
+}
+
+.moveBirdL {
+  animation-name: moveBirdL;
+  animation-duration: 4s;
+  animation-fill-mode: forwards;
+  animation-delay: 500ms;
+}
+
+@keyframes moveBirdL {
+  0% {transform:translate(-500 0); }
+  100% {transform:translate(0); }
+}
+
+#cage1 {
+  opacity: 100;
+  transition: opacity 250ms;
+}
+
+.moveCage1 {
+  animation-name: movePls;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+  transition: transform 1s ease-in;
+}
+
+@keyframes movePls {
+  0% {transform:translate(-700 0); }
+  100% {transform:translate(0); }
+}
+
+#daisies {
+  display: none;
+  opacity: 0;
+  transition: opacity 5000ms;
+}
+
+#blueOverlayL {
+  display: none;
+  transition: transform 0.5s ease-out;
+  transform: translate(-450px, 0px);
+}
+
+#blueOverlayR {
+  display: none;
+  transition: transform 0.5s ease-out;
+  transform: translate(500px, 0px);
+}
+
+#sliceySlicey {
+  transition: transform 0.25s ease-in;
+  transform: translate(0px, 0px);
+}
+
+/*#bigBirdR {
+
+  animation: spin 4s linear;*/
+
+  /* Pause the animation */
+/*  animation-play-state: paused;*/
+  /* Bind the animation to scroll */
+/*  animation-delay: calc(var(--scroll) * -1s);*/
+  /* These last 2 properites clean up overshoot weirdness */
+ /* animation-iteration-count: 1;
+  animation-fill-mode: both;*/
+
+/*
+}
+
+@keyframes spin {
+  0% {transform:rotate(0deg); }
+  100% {transform:rotate(360deg);}
+}*/

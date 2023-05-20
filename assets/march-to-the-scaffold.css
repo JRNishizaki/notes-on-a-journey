@@ -1,0 +1,151 @@
+@import 'css/variables.css';
+@import 'css/typography.css';
+@import 'css/path.css';
+@import 'css/page-layout.css';
+
+body {
+   background-color: white;
+}
+
+main {
+ max-width: 80%;
+ margin: 0 auto;
+ position: relative;
+}
+
+.container {
+  display: none;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(243, 235, 223, .9);
+  z-index: 9999;
+}
+
+.popUp {
+    box-sizing: border-box;
+    background-color: #ffffff;
+    width: 600px;
+    padding: 30px 40px;
+    position: fixed;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+    border-radius: 8px;
+    display: none;
+/*    text-align: center;*/
+}
+.popUp h2{
+  text-align: center;
+}
+
+.popUp button{
+    display: block;
+    width: 150px;
+    margin: 10px auto;
+    text-align: center;
+    background-color: var(--red);
+    border-radius: 10px;
+    font-family: var(--body-font);
+    color: var(--white);
+    text-decoration: none;
+    padding: 8px 0;
+    border: none;
+}
+
+.popUp button:hover{
+  background-color: var(--darkRed);
+}
+
+.path {
+  display: flex;
+}
+
+.path svg {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+/*  background-color: wheat;*/
+}
+
+#video {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+video {
+  width: 100%;
+}
+
+.background {
+  position: absolute;
+  object-fit: contain;
+
+/*  top: 0; right: 0; bottom: 0; left: 0;*/
+
+}
+
+#backgroundVisuals {
+  width: 77.25vw;
+  height: 100%;
+  top: 0;
+}
+
+
+
+/*#bigGrid {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: [header] auto [content] 1fr [footer] auto;
+
+}
+*/
+
+.content {
+  top: 0;
+  position: relative;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: repeat(10, minmax(0, 1fr));
+  align-items: start;
+  gap: 10px;
+}
+
+.path {
+  grid-row-start: 1;
+  grid-column-start: 1;
+  grid-column-end: 7;
+  padding-top: 19vh;
+}
+
+.videoText {
+  height: 80vh;
+  position: sticky;
+  top: 0;
+  right: 0;
+  margin-bottom: auto;
+/*  padding: 50px 0 10px 0;*/
+  
+/*  padding: 0;*/
+  padding-top: 19vh;
+
+  grid-row-start: 1;
+  grid-column-start: 6;
+  grid-column-end: 10;
+  
+  display: grid;
+  grid-template-rows: auto 1fr;
+  gap: 10px;
+}
+
+#text {
+  overflow: auto;
+  overflow-x: hidden;
+  background-color: none;
+  display: block;
+}
+
+/*g text default: hidden, g text hover: display*/

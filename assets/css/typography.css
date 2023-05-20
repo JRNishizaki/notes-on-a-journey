@@ -1,0 +1,16 @@
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--header-font);
+  color: var(--header-text-color);
+/*  text-transform: uppercase;*/
+  line-height: 1.2;
+  margin: 0.5em 0 1em;
+}
+
+body {
+  font-family: var(--body-font);
+  color: var(--body-text-color);
+  line-height: 1.5;
+}
+p {
+  margin: 1em 0 2em 0;
+}

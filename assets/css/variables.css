@@ -1,0 +1,22 @@
+/* define global variables here */
+:root {
+  --header-text-color: #9E3428;
+/*  --body-text-color: #202020;*/
+  --bldy-text-color: #2d2d2d;
+  --accent-color: red;
+  --header-font: 'Libre Baskerville', Palatino, serif;
+  --body-font: 'Work Sans', 'Source Sans Pro', sans-serif;
+
+  --backgroundFill: #f3ebdf;
+/*  --backgroundFill: green;*/
+  --medGrey: #636466;
+  --lightGrey: #b1b3b6;
+  --red: #b83a29;
+  --darkRed: #9E3428;
+  --blue: #15406B;
+  --darkBlue: #083354;
+  --white: #fff;
+  --black: #000;
+  --blackHighlight: #2d2d2d;
+  --dotStroke: 5px;
+}
