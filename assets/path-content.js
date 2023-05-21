@@ -180,17 +180,6 @@ function updateView () {
   setTimeout(updateView, 30); // delay is defined in milliseconds
 }
 
-// function test (time) {
-//   let segment = getSegment(time);
-
-//   // update view
-//   updateSVG(time);
-//   updateText(segment);
-//   console.log(`TEST! time=${time}, segment=${segment}`)
-// }
-
-
-
 function togglePlay() {
   let video = document.querySelector("#marchVideo");
   if (video.paused || video.ended) {
@@ -206,9 +195,6 @@ function togglePlay() {
   squiggleBack.addEventListener("click", togglePlay);
 
 //when you hover on a location marker it'll show the text for that segment and if you click on the location marker it'll jump there ahhh do i do this with an eventlistener for mouseover and out?
-
-
-// test(20);
 
 function mouseOverEffect() {
   this.classList.add("highlight");

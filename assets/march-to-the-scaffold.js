@@ -13,7 +13,7 @@ function videoProgress() {
     }
 
 function popUpAppear() {
-  console.log('help');
+  // console.log('help');
   setTimeout(
         function open(event){
             var pop = document.getElementsByClassName('popUp');
@@ -34,9 +34,9 @@ function main() {
     colorfulDots[i].addEventListener('mouseout', mouseOutEffect);
   }
    var agh = document.getElementById("agh");
-    console.log(agh);
+    // console.log(agh);
   var pathLength = agh.getTotalLength();
-    console.log(pathLength);
+    // console.log(pathLength);
   var video1 = document.getElementById("marchVideo");
   var squiggle = document.getElementsByClassName("squiggleMove");
 
