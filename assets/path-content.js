@@ -119,7 +119,7 @@ function updateSVG (time) {
   }
 
   if (time >= 259) {
-    slicey.style.transform = "translate(0px,360px)";
+    slicey.style.transform = "translate(0px,355px)";
     birdYellow.style.display = "none";
 
   } else {
@@ -257,7 +257,7 @@ let bird7 = document.getElementById('bird7');
 let bird7Rote = 0;
 
 function hopeThisWorks(percentScroll) {
-  console.log(percentScroll); 
+  // console.log(percentScroll); 
   if (percentScroll >= 0.075 && percentScroll <= 0.175) {
     bird2Rote = 110 - (((percentScroll - 0.075))*2200);
     bird2.style.transform = 'rotate(' + bird2Rote + 'deg)';
@@ -293,7 +293,7 @@ function doThings() {
 document.querySelector("#close").addEventListener('click', closeButton);
 // var pop = document.getElementsByClassName('.popUp');
 function popUpAppear() {
-  console.log('help');
+  // console.log('help');
   setTimeout(         
       doThings,
       1000 
